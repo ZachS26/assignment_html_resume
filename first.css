@@ -36,3 +36,17 @@ a:hover{
 .footer{
   margin-top: 5%;
 }
+.container::before,
+.container::after{
+  content: " ";
+  display: table;
+}
+.container::after{
+  clear:both;
+}
+.list-left{
+  float: left;
+}
+.list-right{
+  float: right;
+}
