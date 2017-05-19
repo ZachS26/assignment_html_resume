@@ -19,8 +19,9 @@ ul li {
 .header-color{
   color:darkgrey;
 }
-table, td {
+table td {
   border: 2px solid lightgrey;
+  border-collapse: collapse;
 }
 a{
   text-decoration: none;
@@ -46,7 +47,18 @@ a:hover{
 }
 .list-left{
   float: left;
+  border: 2px solid lightgrey;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width:45%;
 }
 .list-right{
   float: right;
+  border: 2px solid lightgrey;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 45%;
+}
+.table{
+  border-collapse: collapse;
 }
